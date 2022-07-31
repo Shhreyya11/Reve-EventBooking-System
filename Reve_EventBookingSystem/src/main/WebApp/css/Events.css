@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+    padding: 2% 4% 5%;
+}
+
+.heading{
+    color: #3c9ba1;
+}
+
+.custom-btn{
+    color: #fff;
+    background-color: #3c9ba1;
+    float: right;
+    padding: 3px;
+    margin: 5px;
+}
+
+.custom-btn:hover{
+    color: #fff;
+    background-color: #3BACB6;
+}
+
+/* Navbar */
+
+.navbar{
+    margin: 0 7%;
+    font-weight: 300;
+}
+
+/* --------------------TABLES (COMMON STYLE)--------------------- */
+
+th{
+    background-color: powderblue;
+    color: rgb(90, 90, 90);
+    color: white;
+    position: static;
+}
+
+table{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.15rem;
+    background-color: aliceblue;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+}
+
+tr:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+table, th, td {
+    border: 0.5px solid darkgrey;
+}
