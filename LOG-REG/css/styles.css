@@ -1,0 +1,144 @@
+
+body{
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #222222;    
+}
+
+h1{
+    margin: 28px 0 0;
+    font-size: 12.5rem;
+}
+
+/* General Styles */
+
+.logo{
+    font-family: 'Whisper', cursive;
+    font-weight: 500;
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 2.75rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+}
+
+/* --------------------TITLE SECTION--------------------- */
+
+#title {
+    background-color: #557B83;
+     /*#54BAB9  #24A19C*/
+    padding: 2% 11% 5%;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+/* Navbar Styling*/
+.navbar {
+    padding: 0 0 3.2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-shadow: 0 0 1px #fff;
+}
+
+.dropdown-item{
+    font-weight: 300;
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: #35858B;
+}
+
+.navbar-brand {
+    font-family: 'Whisper', cursive;
+    font-size: 2.7rem;
+}
+.nav-item{
+    margin: 0 5px 0;
+}
+
+.fa-arrow-right-to-bracket{
+    color: #d3d3d3c6;
+    text-shadow: 0 0 0;
+}
+
+/* Content */
+
+.text-column{
+    text-align: left;
+}
+
+#title h3{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.3rem;
+    margin: 12px 0 25px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.title-img{
+    height: 395px;
+}
+
+/* -------------------- ABOUT US --------------------- */
+
+
+#about-us{
+    padding: 4% 20% 3%;
+}
+
+#about-us .heading{
+    color: #D96098;
+}
+
+
+
+/* -------------------- CONTACT US --------------------- */
+
+#contact-us{
+    background-color: #325288;
+    color: #e3e3e3;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 5% 19% 5%;
+}
+
+.social-icon{
+    color: #e1e0e0;
+    margin: 20px 13px;
+}
+
+.social-icon:hover{
+    color: #d9d9d9;
+    transform: scale(1.1);
+}
+
+/* --------------------LOGIN MODAL--------------------- */
+
+.modal-body{
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 2px;
+}
+
+.modal .fa-lock, .modal .fa-envelope{
+    color: darkgrey;
+    margin: 0 5px;
+}
+
+.login-btn{
+    background-color: #35858B;
+    color: #fff;
+}
+
+.login-btn:hover{
+    background-color: #54BAB9;
+    color: #fff;
+}
+
+/* Selection Color */
+
+::selection{
+    background-color: #39AEA9;
+    color: #fff;
+}
