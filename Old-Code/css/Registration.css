@@ -1,0 +1,41 @@
+
+body{
+    padding: 3% 19%;
+    font-weight: 600;
+    background-color: #cee6e5;
+}
+
+form{
+    text-align: left;
+    color: grey;
+}
+
+h2{
+    color: #35858B;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.logo{
+    font-size: 2.2rem;
+    color: #24717a;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: #35858B;
+}
+
+.custom-btn{
+    color: #fff;
+    background-color: #3c9ba1;
+    float: right;
+    margin: 7px;
+}
+
+.custom-btn:hover{
+    color: #fff;
+    background-color: #3BACB6;
+}

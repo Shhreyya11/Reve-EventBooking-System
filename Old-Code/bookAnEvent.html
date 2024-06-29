@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rêve - Book a seat</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/butterfly.ico">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/f4fe8c127f.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;500;900&family=Source+Serif+Pro:ital@0;1&family=Whisper&display=swap" rel="stylesheet">
+    <!-- FA cheat pro link v5.10-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
+
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bookAnEvent.css">
+</head>
+
+<body>
+
+    <p class="return">Return to <a href="Events.html">previous</a> page.</p>
+<br><br>
+    <h2 class="heading">Book seats</h2>
+
+<!--------------------- Form for details -------------------->   
+    <form action="form-select" id="details">
+    <div class="row">
+
+        <div class="col-md-6">
+        <div class="mb-3">
+            <label class="form-label" for="event">Selected Event: </label>
+            <select name="Events" id="event" class="form-select" aria-label="Default select example">
+                <option value="1">James Jean Art Exhibition - Catharasis</option>
+                <option value="2">BangTan Concert - Xth Anniversay</option>
+                <option value="3">Annual Architecture Seminar</option>
+            </select>
+        </div>
+        <div>
+            <label class="form-label" for="date">Date for booking: </label>
+            <input class="form-control" type="date" id="date">
+        </div>
+        <div>
+            <label class="form-label" for="pay">Payment Method: </label>
+            <select name="Events" id="pay" class="form-select" aria-label="Default select example">
+                <option value="1">Cash at Counter</option>
+            </select>
+        </div>
+        </div>
+        
+        <div class="col-md-6">
+        <div>
+            <label class="form-label" for="booker">Name: </label>
+            <input class="form-control" type="text" id="booker">
+        </div>
+        <div>
+            <label class="form-label" for="contact">Contact Number: </label>
+            <input class="form-control" type="tel" id="contact">
+        </div>
+        <div>
+            <label class="form-label" for="email">Email ID: </label>
+            <input class="form-control" type="email" id="email">
+        </div>
+        </div>
+    </div>
+    </form>
+
+<!-------------------- SEAT SELECTION ----------------------->
+    <hr>
+    <h5 class="m-4">- Please select desired seats -</h5>
+
+    <!-- Guide -->
+    <div class="alert alert-secondary p-2" role="alert">
+        <p class="mb-0"><strong>Seats available:</strong> &nbsp <i class="guide-icon fas fa-chair-office"></i> Regular: ₹100 &nbsp <i class="guide-icon fas fa-loveseat"></i> VIP: ₹150</p>
+        <p class="mb-0">Grey seats are already booked.</p>
+    </div>
+
+    <!-- Seats -->
+    <div class="container">
+
+        <!-- REGULAR -->
+
+        <!-- Row 1 -->
+        <div class="seat-row">
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office sold"></i>
+            <i class="fas fa-chair-office sold"></i>
+            <i class="fas fa-chair-office"></i>
+            <p style="display: inline;">&nbsp &nbsp &nbsp</p>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office sold"></i>
+            <i class="fas fa-chair-office sold"></i>
+            <i class="fas fa-chair-office sold"></i>
+            <i class="fas fa-chair-office"></i>
+        </div>
+        <!-- Row 2 -->
+        <div class="seat-row">
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <p style="display: inline;">&nbsp &nbsp &nbsp</p>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+        </div>
+        <!-- Row 3 -->
+        <div class="seat-row">
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office sold"></i>
+            <i class="fas fa-chair-office sold"></i>
+            <i class="fas fa-chair-office sold"></i>
+            <p style="display: inline;">&nbsp &nbsp &nbsp</p>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+        </div>
+        <!-- Row 4 -->
+        <div class="seat-row">
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <p style="display: inline;">&nbsp &nbsp &nbsp</p>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+            <i class="fas fa-chair-office"></i>
+        </div>
+            
+    <br>
+        <!-- VIP SEATS -->
+
+        <!-- Row 5 -->
+        <div class="vip-row">
+            <i class="fas fa-loveseat"></i>
+            <i class="fas fa-loveseat"></i>
+            <i class="fas fa-loveseat sold"></i>
+            <i class="fas fa-loveseat sold"></i>
+            <p style="display: inline;">&nbsp &nbsp &nbsp</p>
+            <i class="fas fa-loveseat"></i>
+            <i class="fas fa-loveseat sold"></i>
+            <i class="fas fa-loveseat sold"></i>
+            <i class="fas fa-loveseat sold"></i>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="vip-row">
+            <i class="fas fa-loveseat"></i>
+            <i class="fas fa-loveseat"></i>
+            <i class="fas fa-loveseat"></i>
+            
+            <p style="display: inline;">&nbsp &nbsp &nbsp</p>
+            <i class="fas fa-loveseat"></i>
+            <i class="fas fa-loveseat"></i>
+            <i class="fas fa-loveseat"></i>
+            
+        </div>
+        
+    </div>
+
+
+<!-- -------------------- PRICING & BOOKING ----------------------- -->
+
+<div class="container-fluid">
+    <!-- Price Display -->
+    <div class="alert alert-info p-2 w-50" role="alert">
+        <p class="mb-1">Seats selected: <span id="regular">0</span> Regular & <span id="vip">0</span> VIP seats.</p>
+        <p class="mb-0"><strong>Total price: ₹ <span id="price">0</span></strong></p>
+    </div>
+
+    <!-- Book the tickets -->
+    <button onclick="book()" class="btn btn-secondary">BOOK THE TICKETS</button>
+
+    <!-- Booking Success -->
+    <div class="success-prompt alert alert-success fade show p-3 mb-2" role="alert" style="visibility: hidden;">
+        <p class="mb-0">Booking Successful! Tickets confirmed.</p>
+        <p class="mb-0">Return to <a href="Events.html">previous</a> page.</p>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="bookAnEvent.js"></script>
+</body>
+</html>
