@@ -1,0 +1,104 @@
+
+body{
+    padding: 2% 12%;
+    font-size: 1.1rem;
+    background-color: #EEEEEE;
+}
+
+/* Top of page */
+
+.heading{
+    color: #06113C;
+}
+
+.return{
+    float: left;
+}
+
+.return a {
+    color: #FF8C32;
+}
+
+/*--------------------- Form for details --------------------*/
+
+.row{
+    width: 85%;
+    margin: 3% auto;
+}
+
+form{
+    text-align: left;
+}
+
+.form-label{
+    color: #5c5c5c;
+    font-weight: 550;
+    margin: 7px 1.4rem 0;
+}
+
+.form-select, .form-control{
+    margin: 0 auto 18px;
+    width: 90%;
+}
+
+/* -------------------- SEAT SELECTION ----------------------- */
+
+h5{
+    color: dimgray;
+}
+
+/* Seats */
+
+.fas{
+    color: #06113C;
+    font-size: 2.3rem;
+    margin: 5px;
+}
+
+.sold{
+    color: #afaeae;
+}
+
+.fas:not(.sold):hover{
+    color: #FEB139;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.selected{
+    color: #FF8C32;
+}
+
+/* Guide Style */
+
+.guide-icon{
+    font-size: 1.2rem;
+}
+
+.alert .guide-icon:hover{
+    color: grey;
+    cursor: default;
+    transform: none;
+}
+
+/* -------------------Price & Booking------------------------------*/
+
+.alert{
+    margin: 25px auto;
+}
+
+span{
+    color: blue;
+}
+
+.success-prompt a{
+    color: darkgreen;
+}
+
+
+/* text selection style */
+
+::selection{
+    background-color: lightgreen;
+    color: #000;
+}
